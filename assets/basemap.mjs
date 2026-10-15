@@ -1,0 +1,6 @@
+export async function addFallback(map){
+ try{const r=await fetch('data/roads.json');if(!r.ok)throw Error('Road layer unavailable');const data=await r.json();map.createPane('local-roads');map.getPane('local-roads').style.zIndex=190;map.getPane('local-roads').style.pointerEvents='none';L.geoJSON(data,{pane:'local-roads',interactive:false,style:f=>({color:Number(f.properties.ROAD_CLASS)<=3?'#c1b99f':'#fdfcf5',weight:Number(f.properties.ROAD_CLASS)<=3?3:1.8,opacity:1})}).addTo(map);map.attributionControl.addAttribution('道路简图: <a href="https://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/TRANSPORTATION_street_segment/FeatureServer">City of Austin</a>');
+ const labels=[['Guadalupe St',30.295,-97.741],['Rio Grande St',30.289,-97.745],['San Gabriel St',30.285,-97.748],['N Lamar Blvd',30.295,-97.748],['Dean Keeton St',30.291,-97.735],['24th St',30.288,-97.738],['I-35',30.284,-97.731],['Far West',30.354,-97.754],['Riverside',30.242,-97.726],['Lake Austin Blvd',30.283,-97.781]];
+ for(const[name,lat,lng]of labels)L.marker([lat,lng],{pane:'local-roads',interactive:false,icon:L.divIcon({className:'road-label',html:name,iconSize:[110,18]})}).addTo(map);
+ }catch(e){console.warn(e.message);}
+}

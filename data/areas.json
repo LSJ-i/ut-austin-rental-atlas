@@ -1,0 +1,194 @@
+{
+  "asOf": "2026-10-15",
+  "periodStart": "2026-07-17",
+  "periodEnd": "2026-10-14",
+  "days": 90,
+  "source": "https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer",
+  "sourceLabel": "Austin Police Department · CrimeViewer",
+  "sourceLatestIncident": "2026-10-14T04:56:00+00:00",
+  "method": "自定义研究范围内，近 90 天 APD 主要罪类按 RIN 去重后的报案数 / 平方公里；按本页研究范围密度的三分位分组，边界处相同值归入同组。暴力类仅指 homicide、robbery、aggravated assault。",
+  "limitations": [
+    "研究范围为自定义矩形，非官方社区边界；范围之间可能重叠。",
+    "不含 UTPD 单独记录、Part II 类及未报案事件；不代表完整犯罪数量。",
+    "未按常住人口、游客或通勤人口调整，不是个人受害概率或官方安全评级。",
+    "仅有本页研究范围的相对比较，低密度不代表安全；无覆盖数据不评为低风险。"
+  ],
+  "zones": [
+    {
+      "id": "west-north",
+      "name": "West Campus 北部",
+      "description": "25th–29th / Pearl · Rio Grande",
+      "bounds": [
+        -97.752,
+        30.289,
+        -97.742,
+        30.297
+      ],
+      "areaKm2": 0.856,
+      "incidents": 35,
+      "violentIncidents": 0,
+      "density": 40.9,
+      "level": "high"
+    },
+    {
+      "id": "west-south",
+      "name": "West Campus 南部",
+      "description": "MLK–25th / San Gabriel · Nueces",
+      "bounds": [
+        -97.752,
+        30.281,
+        -97.742,
+        30.289
+      ],
+      "areaKm2": 0.856,
+      "incidents": 66,
+      "violentIncidents": 2,
+      "density": 77.1,
+      "level": "high"
+    },
+    {
+      "id": "north-university",
+      "name": "North University",
+      "description": "校园以北 / Guadalupe · Speedway",
+      "bounds": [
+        -97.742,
+        30.297,
+        -97.729,
+        30.311
+      ],
+      "areaKm2": 1.947,
+      "incidents": 59,
+      "violentIncidents": 1,
+      "density": 30.3,
+      "level": "high"
+    },
+    {
+      "id": "hyde-park",
+      "name": "Hyde Park",
+      "description": "住宅街区 / 38th–45th 周边",
+      "bounds": [
+        -97.74,
+        30.311,
+        -97.72,
+        30.326
+      ],
+      "areaKm2": 3.209,
+      "incidents": 49,
+      "violentIncidents": 1,
+      "density": 15.3,
+      "level": "low"
+    },
+    {
+      "id": "hancock",
+      "name": "Hancock",
+      "description": "Red River / 32nd–38th 周边",
+      "bounds": [
+        -97.729,
+        30.297,
+        -97.711,
+        30.311
+      ],
+      "areaKm2": 2.696,
+      "incidents": 69,
+      "violentIncidents": 1,
+      "density": 25.6,
+      "level": "medium"
+    },
+    {
+      "id": "downtown-north",
+      "name": "Downtown 北部",
+      "description": "MLK 以南 / Capitol 周边",
+      "bounds": [
+        -97.752,
+        30.267,
+        -97.73,
+        30.281
+      ],
+      "areaKm2": 3.296,
+      "incidents": 206,
+      "violentIncidents": 16,
+      "density": 62.5,
+      "level": "high"
+    },
+    {
+      "id": "east-campus",
+      "name": "East Campus 周边",
+      "description": "I-35 以东 / Manor Road 周边",
+      "bounds": [
+        -97.73,
+        30.281,
+        -97.711,
+        30.297
+      ],
+      "areaKm2": 3.253,
+      "incidents": 72,
+      "violentIncidents": 1,
+      "density": 22.1,
+      "level": "medium"
+    },
+    {
+      "id": "clarksville",
+      "name": "Clarksville 周边",
+      "description": "Lamar 以西 / Pease Park 周边",
+      "bounds": [
+        -97.772,
+        30.278,
+        -97.752,
+        30.3
+      ],
+      "areaKm2": 4.708,
+      "incidents": 27,
+      "violentIncidents": 0,
+      "density": 5.7,
+      "level": "low"
+    },
+    {
+      "id": "far-west",
+      "name": "Far West",
+      "description": "661 服务片区 / Greystone · North Hills",
+      "bounds": [
+        -97.766,
+        30.344,
+        -97.742,
+        30.37
+      ],
+      "areaKm2": 6.672,
+      "incidents": 41,
+      "violentIncidents": 0,
+      "density": 6.1,
+      "level": "low"
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "description": "670 / 672 服务片区 / Elmont · Lakeshore",
+      "bounds": [
+        -97.742,
+        30.227,
+        -97.704,
+        30.253
+      ],
+      "areaKm2": 10.577,
+      "incidents": 289,
+      "violentIncidents": 14,
+      "density": 27.3,
+      "level": "medium"
+    },
+    {
+      "id": "lake-austin",
+      "name": "Lake Austin Blvd",
+      "description": "663 服务片区 / Brackenridge · Gateway",
+      "bounds": [
+        -97.79,
+        30.275,
+        -97.772,
+        30.291
+      ],
+      "areaKm2": 3.082,
+      "incidents": 7,
+      "violentIncidents": 0,
+      "density": 2.3,
+      "level": "low"
+    }
+  ]
+}
