@@ -40,3 +40,5 @@ APD 更新：`python scripts/refresh_crime.py --as-of YYYY-MM-DD`，需网络。
 - Leaflet 1.9.4 代码已附带，BSD-2-Clause，见 `assets/vendor/LEAFLET-LICENSE.txt`。
 
 区域为自定义矩形而非官方社区边界，可能重叠。相对报案密度未按人口和访客调整，不是安全承诺、官方治安评级或个人受害概率。当前没有收录某区域房源，不代表该区域无空房。此项目与 UT、APD 或各物业无隶属关系。
+
+备用道路底图：City of Austin [Street Centerline](https://services.arcgis.com/0L95CJ0VTaxqcmED/ArcGIS/rest/services/TRANSPORTATION_street_segment/FeatureServer/0)。可用 python scripts/refresh_roads.py 更新；保留官方源地址。外部 OSM 瓦片不可用时仍可显示本地道路简图。
