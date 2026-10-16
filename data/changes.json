@@ -31,5 +31,20 @@
         "after": 900.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-626",
+    "name": "New Contruction: 5 BD/ 4.5 BA",
+    "at": "2026-10-16T16:46:06+00:00",
+    "fields": {
+      "rent": {
+        "before": 10000.0,
+        "after": 10250.0
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2028-08-07"
+      }
+    }
   }
 ]
