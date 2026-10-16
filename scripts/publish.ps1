@@ -19,10 +19,11 @@ try {
     git reset --mixed FETCH_HEAD
     if ($LASTEXITCODE -ne 0) { throw 'Could not initialize local branch from origin' }
   }
-  git add index.html assets data scripts tests README.md .gitignore .github
+  git add index.html assets data scripts tests docs README.md .gitignore .github
   if ($LASTEXITCODE -ne 0) { throw 'git add failed' }
   git diff --cached --quiet
   if ($LASTEXITCODE -eq 1) { git -c user.name='UT Rental Atlas' -c user.email='atlas@users.noreply.github.com' commit -m 'Build UT Austin rental atlas'; if ($LASTEXITCODE -ne 0) { throw 'commit failed' } }
   git push -u origin main
   if ($LASTEXITCODE -ne 0) { throw 'Push failed. Verify repository exists and GitHub login has access.' }
 } finally { Pop-Location }
+

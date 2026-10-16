@@ -1,0 +1,29 @@
+name: 房源纠错或新来源
+description: 提供公开链接，帮助完善租房地图
+title: '[资料更新] '
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 更新类型
+      options:
+        - 房源价格或状态有误
+        - 新房源或新数据来源
+        - 地图或通勤信息
+        - 其他建议
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 公开来源链接
+      description: 请提供物业、管理公司或公开平台地址。
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体信息
+      description: 请写明核查日期、房源名称、户型及需要更正的内容。不要提交证件或申请材料。
+    validations:
+      required: true

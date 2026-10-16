@@ -1,5 +1,5 @@
 """Aggregate public APD data. Publishes area totals only, never incident locations."""
-import argparse, concurrent.futures, datetime as dt, json, math, pathlib, urllib.parse, urllib.request
+import argparse, concurrent.futures, datetime as dt, json, math, pathlib, time, urllib.parse, urllib.request, urllib.error
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 API = 'https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer'
@@ -11,14 +11,20 @@ ZONES = [
  ('hancock','Hancock','Red River / 32nd–38th 周边',[-97.729,30.297,-97.711,30.311]),
  ('downtown-north','Downtown 北部','MLK 以南 / Capitol 周边',[-97.752,30.267,-97.730,30.281]),
  ('east-campus','East Campus 周边','I-35 以东 / Manor Road 周边',[-97.730,30.281,-97.711,30.297]),
- ('clarksville','Clarksville 周边','Lamar 以西 / Pease Park 周边',[-97.772,30.278,-97.752,30.300]),
+ ('clarksville','Clarksville / West Downtown','Lamar 以西 / 663 与 Pease Park 周边',[-97.772,30.272,-97.752,30.300]),
  ('far-west','Far West','661 服务片区 / Greystone · North Hills',[-97.766,30.344,-97.742,30.370]),
  ('riverside','Riverside','670 / 672 服务片区 / Elmont · Lakeshore',[-97.742,30.227,-97.704,30.253]),
  ('lake-austin','Lake Austin Blvd','663 服务片区 / Brackenridge · Gateway',[-97.790,30.275,-97.772,30.291]),
 ]
 def request(url, params):
     req=urllib.request.Request(url+'?'+urllib.parse.urlencode(params),headers={'User-Agent':'UTRentalAtlas/1.0 public-data research'})
-    with urllib.request.urlopen(req,timeout=60) as response: data=json.load(response)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req,timeout=60) as response: data=json.load(response)
+            break
+        except urllib.error.URLError:
+            if attempt==2: raise
+            time.sleep(2**attempt)
     if 'error' in data: raise RuntimeError(data['error'])
     return data
 
@@ -35,7 +41,12 @@ def fetch_layer(layer, start, end):
     return all_features
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--as-of',default=dt.datetime.now(dt.timezone.utc).date().isoformat()); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument('--as-of',default=dt.datetime.now(dt.timezone.utc).date().isoformat()); parser.add_argument('--if-stale',action='store_true'); args=parser.parse_args()
+    if args.if_stale:
+        try:
+            if json.loads((ROOT/'data/areas.json').read_text(encoding='utf-8-sig')).get('asOf')==args.as_of:
+                print('Area statistics already current'); return
+        except (OSError,ValueError): pass
     end=dt.date.fromisoformat(args.as_of); start=end-dt.timedelta(days=90)
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         results=list(pool.map(lambda layer:fetch_layer(layer,start.isoformat(),end.isoformat()),range(9)))

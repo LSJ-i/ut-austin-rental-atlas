@@ -1,0 +1,35 @@
+[
+  {
+    "id": "bridge-a3",
+    "name": "Bridge at Northwest Hills 路 A3",
+    "at": "2026-10-16T02:19:06+00:00",
+    "fields": {
+      "rent": {
+        "before": 1017,
+        "after": 1035.0
+      }
+    }
+  },
+  {
+    "id": "bridge-a2",
+    "name": "Bridge at Northwest Hills 路 A2",
+    "at": "2026-10-16T02:19:06+00:00",
+    "fields": {
+      "rent": {
+        "before": 917,
+        "after": 935.0
+      }
+    }
+  },
+  {
+    "id": "bridge-a1",
+    "name": "Bridge at Northwest Hills 路 A1",
+    "at": "2026-10-16T02:19:06+00:00",
+    "fields": {
+      "rent": {
+        "before": 882,
+        "after": 900.0
+      }
+    }
+  }
+]

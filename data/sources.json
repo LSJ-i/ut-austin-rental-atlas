@@ -1,0 +1,208 @@
+{
+  "frequencyHours": 6,
+  "sources": [
+    {
+      "id": "acc",
+      "name": "American Campus · The Block",
+      "url": "https://www.americancampus.com/student-apartments/tx/austin/the-block/floor-plans",
+      "type": "official",
+      "adapter": "acc",
+      "scope": "已跟踪的 2026 学年 1B1B 户型及其所有档位；不是 The Block 全部户型。",
+      "mode": "automatic",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-16T02:38:44+00:00",
+      "lastAttemptAt": "2026-10-16T02:38:44+00:00",
+      "count": 13,
+      "error": null
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge at Northwest Hills",
+      "url": "https://www.bridgeatnorthwesthills.com/floorplans",
+      "type": "official",
+      "adapter": "bridge",
+      "scope": "官网公开的全部户型与报价区间。",
+      "mode": "automatic",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-16T02:38:44+00:00",
+      "lastAttemptAt": "2026-10-16T02:38:44+00:00",
+      "count": 6,
+      "error": null
+    },
+    {
+      "id": "westside",
+      "name": "Westside Group · AppFolio",
+      "url": "https://westsidegroup.appfolio.com/listings",
+      "type": "manager",
+      "adapter": "appfolio",
+      "scope": "管理公司公开招租页；只收录本地图研究范围内地址。",
+      "mode": "automatic",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-16T02:38:44+00:00",
+      "lastAttemptAt": "2026-10-16T02:38:44+00:00",
+      "count": 3,
+      "error": null
+    },
+    {
+      "id": "urbanchoice",
+      "name": "Urban Choice · AppFolio",
+      "url": "https://urbanchoice.appfolio.com/listings",
+      "type": "manager",
+      "adapter": "appfolio",
+      "scope": "管理公司公开招租页；只收录本地图研究范围内地址。",
+      "mode": "automatic",
+      "status": "ok",
+      "lastSuccessAt": "2026-10-16T02:38:44+00:00",
+      "lastAttemptAt": "2026-10-16T02:38:44+00:00",
+      "count": 107,
+      "error": null
+    },
+    {
+      "id": "manual-grandmarcaustin-com",
+      "name": "grandmarcaustin.com",
+      "url": "https://www.grandmarcaustin.com/floor-plans",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 4
+    },
+    {
+      "id": "manual-liveatcaminoflats-com",
+      "name": "liveatcaminoflats.com",
+      "url": "https://www.liveatcaminoflats.com/Floor-plans.aspx",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-showmetherent-com",
+      "name": "showmetherent.com",
+      "url": "https://www.showmetherent.com/listing/details/1011-W-23rd-St-Austin-TX-78705/6fb0f1c0-323d-11ef-a7ce-0225c3533ff5-e467b676-323d-11ef-a7ce-0225c3533ff5",
+      "type": "aggregator",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-trulia-com",
+      "name": "trulia.com",
+      "url": "https://www.trulia.com/building/1106-w-22nd-st-mark-twain-1106-w-22nd-st-austin-tx-78705-1050319154",
+      "type": "aggregator",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 3
+    },
+    {
+      "id": "manual-rdeskwebsite-com",
+      "name": "rdeskwebsite.com",
+      "url": "https://www.rdeskwebsite.com/rentals/2502-Leon-St-Unit-518-Austin-TX-78705-427404143",
+      "type": "aggregator",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-westsidegroup-com",
+      "name": "westsidegroup.com",
+      "url": "https://www.westsidegroup.com/diplomat-apartments",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-rambleratx-com",
+      "name": "rambleratx.com",
+      "url": "https://www.rambleratx.com/floorplans/nomad/",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-rentcollegepads-com",
+      "name": "rentcollegepads.com",
+      "url": "https://www.rentcollegepads.com/city/austin-tx/listings/hilltop-atx-74381",
+      "type": "aggregator",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-rentable-co",
+      "name": "rentable.co",
+      "url": "https://www.rentable.co/austin-tx/nueces-oaks",
+      "type": "aggregator",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    },
+    {
+      "id": "manual-westdalecreek-com",
+      "name": "westdalecreek.com",
+      "url": "https://www.westdalecreek.com/availableunits",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 3
+    },
+    {
+      "id": "manual-entrata-theballparkaustin-com",
+      "name": "entrata.theballparkaustin.com",
+      "url": "https://entrata.theballparkaustin.com/austin/ballpark-north/student/",
+      "type": "official",
+      "mode": "manual",
+      "status": "manual",
+      "lastSuccessAt": null,
+      "lastAttemptAt": null,
+      "scope": "人工核查资料；尚无稳定自动采集器。",
+      "count": 1
+    }
+  ],
+  "discovery": [
+    {
+      "name": "UT Off-Campus Housing",
+      "url": "https://offcampus.utexas.edu/"
+    },
+    {
+      "name": "Apartments.com · UT Austin",
+      "url": "https://www.apartments.com/off-campus-housing/tx/austin/university-of-texas-at-austin/"
+    },
+    {
+      "name": "Zillow · Austin Rentals",
+      "url": "https://www.zillow.com/austin-tx/rentals/"
+    }
+  ],
+  "updatedAt": "2026-10-16T02:38:44+00:00"
+}
