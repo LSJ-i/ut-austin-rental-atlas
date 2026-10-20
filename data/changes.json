@@ -68,5 +68,20 @@
         "after": 6300.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-293",
+    "name": "UT PRE-LEASE: Charming 4 Bed/2 Bath + 2/2 Detached Garage Apt.in West Campus, Walk to UT",
+    "at": "2026-10-20T21:43:08+00:00",
+    "fields": {
+      "rent": {
+        "before": 13400.0,
+        "after": 14100.0
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2029-08-04"
+      }
+    }
   }
 ]
