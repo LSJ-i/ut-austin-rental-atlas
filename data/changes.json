@@ -98,5 +98,16 @@
         "after": "2028-08-07"
       }
     }
+  },
+  {
+    "id": "westside-74",
+    "name": "1BR/1BA West Downtown Apartment",
+    "at": "2026-10-22T17:18:30+00:00",
+    "fields": {
+      "rent": {
+        "before": 1095.0,
+        "after": 1195.0
+      }
+    }
   }
 ]
