@@ -109,5 +109,24 @@
         "after": 1195.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-651",
+    "name": "UT PRE-LEASE: 2 BD / 2 BA",
+    "at": "2026-10-23T05:01:44+00:00",
+    "fields": {
+      "rent": {
+        "before": 1495.0,
+        "after": 1800.0
+      },
+      "status": {
+        "before": "available",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2026-10-16",
+        "after": "2027-08-01"
+      }
+    }
   }
 ]
