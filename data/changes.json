@@ -128,5 +128,16 @@
         "after": "2027-08-01"
       }
     }
+  },
+  {
+    "id": "urbanchoice-651",
+    "name": "UT PRE-LEASE: 2 BD / 2 BA",
+    "at": "2026-10-24T04:46:38+00:00",
+    "fields": {
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": "2027-07-30"
+      }
+    }
   }
 ]
