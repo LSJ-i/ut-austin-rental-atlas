@@ -150,5 +150,31 @@
         "after": 6000.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-449",
+    "name": "",
+    "at": "2026-10-27T22:23:13+00:00",
+    "fields": {
+      "status": {
+        "before": "future",
+        "after": "needs-confirmation"
+      },
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": null
+      }
+    }
+  },
+  {
+    "id": "urbanchoice-61",
+    "name": "UT PRE-LEASE: 2009 Remodeled 6 Bed / 3 Bath, Wood & Stained Concrete Floors, Custom High End Kitchen and Bathrooms, Just North of UT",
+    "at": "2026-10-27T22:23:13+00:00",
+    "fields": {
+      "rent": {
+        "before": 7500.0,
+        "after": 7200.0
+      }
+    }
   }
 ]
