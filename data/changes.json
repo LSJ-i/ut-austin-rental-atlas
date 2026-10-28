@@ -210,5 +210,16 @@
         "after": "2028-08-01"
       }
     }
+  },
+  {
+    "id": "urbanchoice-146",
+    "name": "UT PRE LEASE: West Campus 2bd / 2ba Cathedral ceilings, Huge windows, Good Roommate floor-plan",
+    "at": "2026-10-28T22:41:16+00:00",
+    "fields": {
+      "rent": {
+        "before": 1600.0,
+        "after": 1800.0
+      }
+    }
   }
 ]
