@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-10-27",
-  "periodStart": "2026-07-29",
-  "periodEnd": "2026-10-26",
+  "asOf": "2026-10-28",
+  "periodStart": "2026-07-30",
+  "periodEnd": "2026-10-27",
   "days": 90,
   "source": "https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer",
   "sourceLabel": "Austin Police Department · CrimeViewer",
-  "sourceLatestIncident": "2026-10-26T01:55:00+00:00",
+  "sourceLatestIncident": "2026-10-27T01:21:00+00:00",
   "method": "自定义研究范围内，近 90 天 APD 主要罪类按 RIN 去重后的报案数 / 平方公里；按本页研究范围密度的三分位分组，边界处相同值归入同组。暴力类仅指 homicide、robbery、aggravated assault。",
   "limitations": [
     "研究范围为自定义矩形，非官方社区边界；范围之间可能重叠。",
@@ -41,9 +41,9 @@
         30.289
       ],
       "areaKm2": 0.856,
-      "incidents": 75,
+      "incidents": 76,
       "violentIncidents": 2,
-      "density": 87.6,
+      "density": 88.8,
       "level": "high"
     },
     {
@@ -57,10 +57,10 @@
         30.311
       ],
       "areaKm2": 1.947,
-      "incidents": 54,
+      "incidents": 51,
       "violentIncidents": 1,
-      "density": 27.7,
-      "level": "high"
+      "density": 26.2,
+      "level": "medium"
     },
     {
       "id": "hyde-park",
@@ -89,9 +89,9 @@
         30.311
       ],
       "areaKm2": 2.696,
-      "incidents": 65,
+      "incidents": 66,
       "violentIncidents": 1,
-      "density": 24.1,
+      "density": 24.5,
       "level": "medium"
     },
     {
@@ -105,9 +105,9 @@
         30.281
       ],
       "areaKm2": 3.296,
-      "incidents": 201,
-      "violentIncidents": 13,
-      "density": 61.0,
+      "incidents": 203,
+      "violentIncidents": 14,
+      "density": 61.6,
       "level": "high"
     },
     {
@@ -137,9 +137,9 @@
         30.3
       ],
       "areaKm2": 5.992,
-      "incidents": 67,
+      "incidents": 66,
       "violentIncidents": 1,
-      "density": 11.2,
+      "density": 11.0,
       "level": "low"
     },
     {
@@ -169,10 +169,10 @@
         30.253
       ],
       "areaKm2": 10.577,
-      "incidents": 286,
+      "incidents": 287,
       "violentIncidents": 13,
-      "density": 27.0,
-      "level": "medium"
+      "density": 27.1,
+      "level": "high"
     },
     {
       "id": "lake-austin",

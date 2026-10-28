@@ -176,5 +176,39 @@
         "after": 7200.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-58",
+    "name": "UT PRE-LEASE: Charming 4 bed / 3 bath house with many updates, short bike or walk to UT",
+    "at": "2026-10-28T05:53:59+00:00",
+    "fields": {
+      "rent": {
+        "before": 4000.0,
+        "after": 4200.0
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2028-08-07"
+      }
+    }
+  },
+  {
+    "id": "urbanchoice-449",
+    "name": "",
+    "at": "2026-10-28T05:53:59+00:00",
+    "fields": {
+      "rent": {
+        "before": 11400.0,
+        "after": 12400.0
+      },
+      "status": {
+        "before": "needs-confirmation",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": null,
+        "after": "2028-08-01"
+      }
+    }
   }
 ]
