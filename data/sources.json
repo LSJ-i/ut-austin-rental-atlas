@@ -10,8 +10,8 @@
       "scope": "已跟踪的 2026 学年 1B1B 户型及其所有档位；不是 The Block 全部户型。",
       "mode": "automatic",
       "status": "ok",
-      "lastSuccessAt": "2026-10-29T05:58:28+00:00",
-      "lastAttemptAt": "2026-10-29T05:58:28+00:00",
+      "lastSuccessAt": "2026-10-29T13:17:26+00:00",
+      "lastAttemptAt": "2026-10-29T13:17:26+00:00",
       "count": 13,
       "error": null
     },
@@ -25,7 +25,7 @@
       "mode": "automatic",
       "status": "error",
       "lastSuccessAt": "2026-10-27T12:24:36+00:00",
-      "lastAttemptAt": "2026-10-29T05:58:28+00:00",
+      "lastAttemptAt": "2026-10-29T13:17:26+00:00",
       "count": 6,
       "error": "HTTP Error 403: Forbidden"
     },
@@ -38,8 +38,8 @@
       "scope": "管理公司公开招租页；只收录本地图研究范围内地址。",
       "mode": "automatic",
       "status": "ok",
-      "lastSuccessAt": "2026-10-29T05:58:28+00:00",
-      "lastAttemptAt": "2026-10-29T05:58:28+00:00",
+      "lastSuccessAt": "2026-10-29T13:17:26+00:00",
+      "lastAttemptAt": "2026-10-29T13:17:26+00:00",
       "count": 3,
       "error": null
     },
@@ -52,8 +52,8 @@
       "scope": "管理公司公开招租页；只收录本地图研究范围内地址。",
       "mode": "automatic",
       "status": "ok",
-      "lastSuccessAt": "2026-10-29T05:58:28+00:00",
-      "lastAttemptAt": "2026-10-29T05:58:28+00:00",
+      "lastSuccessAt": "2026-10-29T13:17:26+00:00",
+      "lastAttemptAt": "2026-10-29T13:17:26+00:00",
       "count": 97,
       "error": null
     },
@@ -204,5 +204,5 @@
       "url": "https://www.zillow.com/austin-tx/rentals/"
     }
   ],
-  "updatedAt": "2026-10-29T05:58:28+00:00"
+  "updatedAt": "2026-10-29T13:17:26+00:00"
 }
