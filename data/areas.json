@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-11-01",
-  "periodStart": "2026-08-03",
-  "periodEnd": "2026-10-31",
+  "asOf": "2026-11-02",
+  "periodStart": "2026-08-04",
+  "periodEnd": "2026-11-01",
   "days": 90,
   "source": "https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer",
   "sourceLabel": "Austin Police Department · CrimeViewer",
-  "sourceLatestIncident": "2026-10-30T23:47:00+00:00",
+  "sourceLatestIncident": "2026-11-01T00:10:00+00:00",
   "method": "自定义研究范围内，近 90 天 APD 主要罪类按 RIN 去重后的报案数 / 平方公里；按本页研究范围密度的三分位分组，边界处相同值归入同组。暴力类仅指 homicide、robbery、aggravated assault。",
   "limitations": [
     "研究范围为自定义矩形，非官方社区边界；范围之间可能重叠。",
@@ -57,9 +57,9 @@
         30.311
       ],
       "areaKm2": 1.947,
-      "incidents": 47,
+      "incidents": 45,
       "violentIncidents": 1,
-      "density": 24.1,
+      "density": 23.1,
       "level": "medium"
     },
     {
@@ -73,9 +73,9 @@
         30.326
       ],
       "areaKm2": 3.209,
-      "incidents": 51,
+      "incidents": 50,
       "violentIncidents": 1,
-      "density": 15.9,
+      "density": 15.6,
       "level": "low"
     },
     {
@@ -105,9 +105,9 @@
         30.281
       ],
       "areaKm2": 3.296,
-      "incidents": 209,
+      "incidents": 207,
       "violentIncidents": 13,
-      "density": 63.4,
+      "density": 62.8,
       "level": "high"
     },
     {
@@ -169,9 +169,9 @@
         30.253
       ],
       "areaKm2": 10.577,
-      "incidents": 294,
+      "incidents": 295,
       "violentIncidents": 12,
-      "density": 27.8,
+      "density": 27.9,
       "level": "high"
     },
     {
