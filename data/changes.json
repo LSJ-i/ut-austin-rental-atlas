@@ -273,5 +273,20 @@
         "after": "2028-08-07"
       }
     }
+  },
+  {
+    "id": "urbanchoice-298",
+    "name": "UT PRE LEASE: Newly Constructed: Luxury 4 bed / 3 bath home in West Campus",
+    "at": "2026-11-03T06:58:35+00:00",
+    "fields": {
+      "status": {
+        "before": "future",
+        "after": "needs-confirmation"
+      },
+      "availableFrom": {
+        "before": "2029-08-07",
+        "after": null
+      }
+    }
   }
 ]
