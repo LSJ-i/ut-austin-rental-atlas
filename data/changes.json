@@ -299,5 +299,16 @@
         "after": 3600.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-410",
+    "name": "UT PRE LEASE: West Campus House 8 beds / 4 bath",
+    "at": "2026-11-04T19:52:16+00:00",
+    "fields": {
+      "rent": {
+        "before": 14500.0,
+        "after": 13500.0
+      }
+    }
   }
 ]
