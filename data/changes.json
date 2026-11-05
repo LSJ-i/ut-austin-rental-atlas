@@ -310,5 +310,35 @@
         "after": 13500.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-396",
+    "name": "2019 Newly Constructed Home: Luxury Designer Finishes - Prime Central Austin Location",
+    "at": "2026-11-05T06:59:07+00:00",
+    "fields": {
+      "status": {
+        "before": "unavailable",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": "2028-08-01"
+      }
+    }
+  },
+  {
+    "id": "urbanchoice-656",
+    "name": "",
+    "at": "2026-11-05T06:59:07+00:00",
+    "fields": {
+      "rent": {
+        "before": 10000.0,
+        "after": 11000.0
+      },
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": "2028-08-01"
+      }
+    }
   }
 ]
