@@ -340,5 +340,20 @@
         "after": "2028-08-01"
       }
     }
+  },
+  {
+    "id": "urbanchoice-22",
+    "name": "UT PRE-LEASE: Hyde Park 4 bed / 3 bath. Open Floor Plan, Wood Floors, Backyard with deck, 2 car garage!",
+    "at": "2026-11-07T06:11:59+00:00",
+    "fields": {
+      "rent": {
+        "before": 5500.0,
+        "after": 5800.0
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2028-08-07"
+      }
+    }
   }
 ]
