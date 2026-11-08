@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-11-07",
-  "periodStart": "2026-08-09",
-  "periodEnd": "2026-11-06",
+  "asOf": "2026-11-08",
+  "periodStart": "2026-08-10",
+  "periodEnd": "2026-11-07",
   "days": 90,
   "source": "https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer",
   "sourceLabel": "Austin Police Department · CrimeViewer",
-  "sourceLatestIncident": "2026-11-06T04:01:00+00:00",
+  "sourceLatestIncident": "2026-11-07T05:09:00+00:00",
   "method": "自定义研究范围内，近 90 天 APD 主要罪类按 RIN 去重后的报案数 / 平方公里；按本页研究范围密度的三分位分组，边界处相同值归入同组。暴力类仅指 homicide、robbery、aggravated assault。",
   "limitations": [
     "研究范围为自定义矩形，非官方社区边界；范围之间可能重叠。",
@@ -25,9 +25,9 @@
         30.297
       ],
       "areaKm2": 0.856,
-      "incidents": 45,
+      "incidents": 51,
       "violentIncidents": 0,
-      "density": 52.6,
+      "density": 59.6,
       "level": "high"
     },
     {
@@ -41,9 +41,9 @@
         30.289
       ],
       "areaKm2": 0.856,
-      "incidents": 90,
+      "incidents": 91,
       "violentIncidents": 2,
-      "density": 105.1,
+      "density": 106.3,
       "level": "high"
     },
     {
@@ -57,9 +57,9 @@
         30.311
       ],
       "areaKm2": 1.947,
-      "incidents": 44,
+      "incidents": 43,
       "violentIncidents": 1,
-      "density": 22.6,
+      "density": 22.1,
       "level": "medium"
     },
     {
@@ -73,9 +73,9 @@
         30.326
       ],
       "areaKm2": 3.209,
-      "incidents": 49,
+      "incidents": 50,
       "violentIncidents": 1,
-      "density": 15.3,
+      "density": 15.6,
       "level": "low"
     },
     {
@@ -121,9 +121,9 @@
         30.297
       ],
       "areaKm2": 3.253,
-      "incidents": 69,
+      "incidents": 67,
       "violentIncidents": 0,
-      "density": 21.2,
+      "density": 20.6,
       "level": "medium"
     },
     {
@@ -169,9 +169,9 @@
         30.253
       ],
       "areaKm2": 10.577,
-      "incidents": 298,
+      "incidents": 297,
       "violentIncidents": 11,
-      "density": 28.2,
+      "density": 28.1,
       "level": "high"
     },
     {
