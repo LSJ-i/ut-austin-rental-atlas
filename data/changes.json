@@ -370,5 +370,69 @@
         "after": null
       }
     }
+  },
+  {
+    "id": "westside-74",
+    "name": "1BR/1BA West Downtown Apartment",
+    "at": "2026-11-10T19:50:42+00:00",
+    "fields": {
+      "status": {
+        "before": "available",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2026-10-16",
+        "after": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "westside-75",
+    "name": "2BR/1BA West Downtown Apartment",
+    "at": "2026-11-10T19:50:42+00:00",
+    "fields": {
+      "status": {
+        "before": "available",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2026-10-16",
+        "after": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "westside-4",
+    "name": "Studio Apartment at West Downtown",
+    "at": "2026-11-10T19:50:42+00:00",
+    "fields": {
+      "status": {
+        "before": "available",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2026-10-16",
+        "after": "2026-11-11"
+      }
+    }
+  },
+  {
+    "id": "urbanchoice-519",
+    "name": "",
+    "at": "2026-11-10T19:50:42+00:00",
+    "fields": {
+      "rent": {
+        "before": 11400.0,
+        "after": 12400.0
+      },
+      "status": {
+        "before": "future",
+        "after": "needs-confirmation"
+      },
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": null
+      }
+    }
   }
 ]
