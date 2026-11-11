@@ -434,5 +434,38 @@
         "after": null
       }
     }
+  },
+  {
+    "id": "westside-74",
+    "name": "1BR/1BA West Downtown Apartment",
+    "at": "2026-11-11T06:42:45+00:00",
+    "fields": {
+      "status": {
+        "before": "future",
+        "after": "available"
+      }
+    }
+  },
+  {
+    "id": "westside-75",
+    "name": "2BR/1BA West Downtown Apartment",
+    "at": "2026-11-11T06:42:45+00:00",
+    "fields": {
+      "status": {
+        "before": "future",
+        "after": "available"
+      }
+    }
+  },
+  {
+    "id": "westside-4",
+    "name": "Studio Apartment at West Downtown",
+    "at": "2026-11-11T06:42:45+00:00",
+    "fields": {
+      "status": {
+        "before": "future",
+        "after": "available"
+      }
+    }
   }
 ]
