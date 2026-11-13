@@ -482,5 +482,35 @@
         "after": "2028-08-07"
       }
     }
+  },
+  {
+    "id": "urbanchoice-132",
+    "name": "UT PRE-LEASE: 6 Bedroom Home w/ 2 Living Areas, Short Bike/Walk to UT",
+    "at": "2026-11-13T19:50:48+00:00",
+    "fields": {
+      "status": {
+        "before": "unavailable",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2027-08-01",
+        "after": "2028-07-31"
+      }
+    }
+  },
+  {
+    "id": "urbanchoice-311",
+    "name": "2017 Newly Built Custom Home - 3 BR / 3 BA - Central Austin / Close to Downtown - Fenced Yard & Garage",
+    "at": "2026-11-13T19:50:48+00:00",
+    "fields": {
+      "rent": {
+        "before": 5000.0,
+        "after": 5400.0
+      },
+      "availableFrom": {
+        "before": "2027-08-03",
+        "after": "2028-08-03"
+      }
+    }
   }
 ]
