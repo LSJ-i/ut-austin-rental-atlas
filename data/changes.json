@@ -512,5 +512,16 @@
         "after": "2028-08-03"
       }
     }
+  },
+  {
+    "id": "urbanchoice-131",
+    "name": "UT PRE-LEASE: North Campus 5 bed/ 2 bath, Wood Floors, W/D, Walk to UT",
+    "at": "2026-11-16T22:17:50+00:00",
+    "fields": {
+      "rent": {
+        "before": 6250.0,
+        "after": 6500.0
+      }
+    }
   }
 ]
