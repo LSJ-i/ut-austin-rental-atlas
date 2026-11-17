@@ -523,5 +523,20 @@
         "after": 6500.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-608",
+    "name": "AVAILABLE AUGUST: New Construction 6 Bed/ 5 Bath Walk to UT",
+    "at": "2026-11-17T08:06:01+00:00",
+    "fields": {
+      "rent": {
+        "before": 8400.0,
+        "after": 9600.0
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2029-08-07"
+      }
+    }
   }
 ]
