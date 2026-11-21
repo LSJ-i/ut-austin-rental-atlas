@@ -579,5 +579,20 @@
         "after": 1095.0
       }
     }
+  },
+  {
+    "id": "urbanchoice-79",
+    "name": "AVAILABLE AUGUST: Upscale 4 bed/2.5 bath home in North Campus just north of UT",
+    "at": "2026-11-21T07:23:08+00:00",
+    "fields": {
+      "status": {
+        "before": "unavailable",
+        "after": "future"
+      },
+      "availableFrom": {
+        "before": "2027-08-07",
+        "after": "2028-08-07"
+      }
+    }
   }
 ]
