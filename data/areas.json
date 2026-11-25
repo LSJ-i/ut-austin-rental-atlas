@@ -1,11 +1,11 @@
 {
-  "asOf": "2026-11-24",
-  "periodStart": "2026-08-26",
-  "periodEnd": "2026-11-23",
+  "asOf": "2026-11-25",
+  "periodStart": "2026-08-27",
+  "periodEnd": "2026-11-24",
   "days": 90,
   "source": "https://maps.austintexas.gov/arcgis/rest/services/CrimeViewer_new/APD_Reported_Crimes_new/FeatureServer",
   "sourceLabel": "Austin Police Department · CrimeViewer",
-  "sourceLatestIncident": "2026-11-23T05:03:00+00:00",
+  "sourceLatestIncident": "2026-11-24T01:13:00+00:00",
   "method": "自定义研究范围内，近 90 天 APD 主要罪类按 RIN 去重后的报案数 / 平方公里；按本页研究范围密度的三分位分组，边界处相同值归入同组。暴力类仅指 homicide、robbery、aggravated assault。",
   "limitations": [
     "研究范围为自定义矩形，非官方社区边界；范围之间可能重叠。",
@@ -25,9 +25,9 @@
         30.297
       ],
       "areaKm2": 0.856,
-      "incidents": 57,
+      "incidents": 58,
       "violentIncidents": 1,
-      "density": 66.6,
+      "density": 67.8,
       "level": "high"
     },
     {
@@ -41,9 +41,9 @@
         30.289
       ],
       "areaKm2": 0.856,
-      "incidents": 95,
+      "incidents": 97,
       "violentIncidents": 2,
-      "density": 111.0,
+      "density": 113.3,
       "level": "high"
     },
     {
@@ -57,9 +57,9 @@
         30.311
       ],
       "areaKm2": 1.947,
-      "incidents": 39,
+      "incidents": 41,
       "violentIncidents": 0,
-      "density": 20.0,
+      "density": 21.1,
       "level": "medium"
     },
     {
@@ -105,9 +105,9 @@
         30.281
       ],
       "areaKm2": 3.296,
-      "incidents": 224,
+      "incidents": 225,
       "violentIncidents": 10,
-      "density": 68.0,
+      "density": 68.3,
       "level": "high"
     },
     {
@@ -121,9 +121,9 @@
         30.297
       ],
       "areaKm2": 3.253,
-      "incidents": 59,
+      "incidents": 60,
       "violentIncidents": 0,
-      "density": 18.1,
+      "density": 18.4,
       "level": "medium"
     },
     {
@@ -154,7 +154,7 @@
       ],
       "areaKm2": 6.672,
       "incidents": 45,
-      "violentIncidents": 1,
+      "violentIncidents": 0,
       "density": 6.7,
       "level": "low"
     },
@@ -169,7 +169,7 @@
         30.253
       ],
       "areaKm2": 10.577,
-      "incidents": 303,
+      "incidents": 302,
       "violentIncidents": 14,
       "density": 28.6,
       "level": "high"
